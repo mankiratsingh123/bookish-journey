@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/bookish-journey/', // ⬅️ Your repo name
+  base: '/bookish-journey/',
   build: {
     outDir: 'dist',
   },

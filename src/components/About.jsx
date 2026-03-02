@@ -57,8 +57,8 @@ function About() {
               <div className="stat-label">Projects</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">1M+</div>
-              <div className="stat-label">Views Generated</div>
+              <div className="stat-number">$1000+</div>
+              <div className="stat-label">Earnings</div>
             </div>
           </div>
         </div>

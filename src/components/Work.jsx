@@ -19,8 +19,17 @@ const projects = [
     videoId: "oS8uz2jmpdE",
     description: "A high-energy motion graphics spec ad focused on the Food & Beverage industry. This project demonstrates the use of dynamic rhythm and kinetic typography to create an engaging social media commercial."
   },
-  {
+   {
     id: 3,
+    title: "Viral Shorts: Viral TikTok and YouTube Shorts and instagram reels edit",
+    client: "personal",
+    category: "shorts",
+    thumbnail: "https://img.youtube.com/vi/Uz_aXvSsY3w/maxresdefault.jpg",
+    videoId: "Uz_aXvSsY3w",
+    description: "Made a series of 10+ vertical shorts for TikTok, Instagram Reels, and YouTube Shorts, focusing on viral trends and rapid pacing. This project highlights my ability to create engaging content optimized for mobile viewing and social media algorithms."
+  },
+  {
+    id: 4,
     title: "Co-Editor: TuriX AI Software Review",
     client: "Shark Numbers",
     category: "youtube",
@@ -29,7 +38,7 @@ const projects = [
     description: "Collaborated with a post-production team to deliver a polished tech review for the channel Shark Numbers (Ivan KV). This project required a seamless blend of talking head footage, screen recordings, and motion graphics to explain complex automation concepts."
   },
   {
-    id: 4,
+    id: 5,
     title: "Viral News & Commentary Series (10+ Shorts)",
     client: "Rohit Discord Client",
     category: "youtube",
@@ -38,7 +47,7 @@ const projects = [
     description: "One example from a series of 10+ vertical shorts produced for a repeat client sourced via Discord. This project focused on the YouTuber News niche, requiring rapid turnaround times to capitalize on trending topics (e.g., Dream/Minecraft controversy)."
   },
   {
-    id: 5,
+    id: 6,
     title: "High-Retention Documentary Style: Space & Science Explainer",
     client: "Upwork Client Fahim",
     category: "client",
@@ -84,6 +93,12 @@ function Work() {
             onClick={() => setFilter('personal')}
           >
             Personal
+          </button>
+          <button 
+            className={filter === 'shorts' ? 'active' : ''} 
+            onClick={() => setFilter('shorts')}
+          >
+            Instagram/TikTok/YouTube Shorts
           </button>
         </div>
       </div>
